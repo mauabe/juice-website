@@ -1,0 +1,160 @@
+@font-face {
+  font-family: "Din";
+  src: url("/fonts/din-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Din";
+  src: url("/fonts/din-medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Din";
+  src: url("/fonts/din-bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+body nav h1 h2 h3 {
+  margin: 0;
+  padding: 0;
+  font-family: "Din", san-serif;
+}
+
+.container{
+  max-width: 1170px;
+}
+
+.center {
+  margin: auto;
+  width: 100%;
+  padding: 20px;
+}
+
+/* PENCIL */
+#pencil {
+  background-color: black;
+  height: 40px;
+  line-height: 10px;
+}
+
+#pencil p {
+  display: inline-block;
+  margin: 0;
+
+}
+
+.pencil-text {
+  font-family: Din, san-serif;
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+} 
+
+.pencil-link {
+  font-family: Din, san-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 12px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  /* text-align: center; */
+}
+
+/* SECTION MAIN */
+
+/* NAV BAR */
+#nav {
+  display: inline-block;
+  height: 70px;
+  /* line-height: 10px; */
+}
+
+.nav-bar {
+  display: inline-block;
+  font-family: "Din", san-serif;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav ul li a{
+  font-family: "Din", san-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav ul li a .active{
+  font-family: Din, sans-serif;
+  font-size: 13px;
+  color: #ff5e48;
+}
+
+nav ul li a:hover {
+  font-family: Din, sans-serif;
+  font-size: 13px;
+  color: #ff5e48;
+}
+
+/* TODO Nav-bar */
+nav li {
+  display: block;
+ }
+ 
+nav li:hover {
+   cursor: pointer;
+ }
+ 
+nav ul li ul {
+   visibility: hidden;
+   opacity: 0;
+   position: absolute;
+   transition: all 0.5s ease;
+   margin-top: 1rem;
+   left: 0;
+   display: none;
+}
+ 
+ul li:hover > ul,
+ul li ul:hover {
+   visibility: visible;
+   opacity: 1;
+   display: block;
+}
+ 
+ul li ul li {
+   clear: both;
+   width: 100%;
+}
+
+.dropdown {
+  font-family: Din, sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+#login-link {
+  font-family: Din, sans-serif;
+  font-size: 12px;
+}
+
+#login-link:hover {
+  font-family: Din, sans-serif;
+  font-size: 12px;
+  color: #ff5e48;
+}
+
+
+#box-full{
+  visibility: hidden;
+  position: relative;
+}
+
+#box-empty {
+  position: relative;
+}
