@@ -7,137 +7,365 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 
   <title>Juice Served Here</title>
+
 </head>
 <body>
 
   <!-- SECTION PENCIL: TOP BLACK BAR -->
   <section id="pencil">
-    <div class="container">
-      <span class="pencil-text center">
-        <p>Free Shipping on Your First Order and any Order Over $89 <a href="#" class="pencil-link">Click to see details</a></p>
-      </span>
+    <div class="wrapper">
+      <div class="text-center">
+        <p>Free Shipping on Your First Order and any Order Over $89 <a href="#">Click to see details</a></p>
+      </div>
     </div>
   </section>
 
-  <!-- SECTION MAIN: NAV BAR AND HERO -->
-  <section id="main" >
-    <div class="container">
-      <nav role="navigation" class="nav-bar">
+  <!-- SECTION NAV BAR -->
+  <nav role="navigation" class="nav-bar">
+    <div class="wrapper">
+
+      <div class="grid">
         <ul>
-          <li><a href="#" id="login-link">Log In</a></li>
-          <li><a href="#">SHOP</a>
+          <li><a href="#" class="link">Log In</a></li>
+          <li class="dropdown"><a href="#" class="link">SHOP</a>
             <!-- TODO -->
-            <!-- <ul class="dropdown">
-              <li><a href="#">DRINKS</a>
-                <ul class="dropdown">
-                  <li><a href="#">All</a></li>
-                  <li><a href="#" class="active">Juices</a></li>
-                  <li><a href="#">Smoothies</a></li>
-                  <li><a href="#">Clease Packs</a></li>
-                  <li><a href="#">Shots</a></li>
-                  <li><a href="#">Coffee</a></li>
-                  <li><a href="#">Water</a></li>
-                </ul>
-              </li>
-              <li><a href="#">GOODS</a>
-                <ul class="dropdown">
-                  <li><a href="#">All</a></li>
-                  <li><a href="#">Juices</a></li>
-                  <li><a href="#">Smoothies</a></li>
-                  <li><a href="#">Clease Packs</a></li>
-                  <li><a href="#">Shots</a></li>
-                  <li><a href="#">Coffee</a></li>
-                  <li><a href="#">Water</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>   -->
-          <li><a href="#">CLEANSES</a>
-            <!-- <ul class="dropdown">
-              <li><a href="#">CLEANSES</a></li>
-              <li><a href="#">All</a></li>
-              <li><a href="#">Soft Cleanse</a></li>
-              <li><a href="#">Semi Cleanse</a></li>
-              <li><a href="#">Hard Cleanse</a></li>
-            </ul>
-          </li> -->
-          <li><a href="#">BUILD A BOX</a>
             <ul class="dropdown">
-                <li><a href="#">BOXES</a></li>
-                <li><a href="#">Favorites Box</a></li>
-                <li><a href="#">Sweet Cream Box</a></li>
-                <li><a href="#">Detox Box</a></li>
-                <li><a href="#">Green Box</a></li>
-              </ul>
-          </li>
-          <li><img src="img/JSH-Horizontal-LOGO.png" alt="logo"></li>
+              <li><a href="#" class="link">DRINKS</a>
+                <ul class="submenu">
+                  <li><a href="#" class="link">All</a></li>
+                  <li><a href="#" class="link active">Juices</a></li>
+                  <li><a href="#" class="link">Smoothies</a></li>
+                  <li><a href="#" class="link">Clease Packs</a></li>
+                  <li><a href="#" class="link">Shots</a></li>
+                  <li><a href="#" class="link">Coffee</a></li>
+                  <li><a href="#" class="link">Water</a></li>
+                </ul>
+              </li>
+              <li><a href="#" class="link">GOODS</a>
+                <ul class="submenu">
+                  <li><a href="#"  class="link">All</a></li>
+                  <li><a href="#" class="link">Juices</a></li>
+                  <li><a href="#" class="link">Smoothies</a></li>
+                  <li><a href="#" class="link">Clease Packs</a></li>
+                  <li><a href="#" class="link">Shots</a></li>
+                  <li><a href="#" class="link">Coffee</a></li>
+                  <li><a href="#" class="link">Water</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#" class="link">BOXES</a>
+                <ul class="submenu">
+                  <li><a href="#" class="link">Favorites Box</a></li>
+                  <li><a href="#" class="link">Sweet Cream Box</a></li>
+                  <li><a href="#" class="link">Detox Box</a></li>
+                  <li><a href="#" class="link">Green Box</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#" class="link">CLEANSES</a>
+                <ul class="submenu">
+                  <li><a href="#" class="link">All</a></li>
+                  <li><a href="#" class="link">Soft Cleanse</a></li>
+                  <li><a href="#" class="link">Semi Cleanse</a></li>
+                  <li><a href="#" class="link">Hard Cleanse</a></li>
+                </ul>
+              </li>  
+            </ul>
+          </li>   
+          <li><a href="#">CLEANSES</a></li> 
+          <li><a href="#">BUILD A BOX</a></li>
+        </ul>
+      </div>
+
+      <div class="grid"><img src="img/JSH-Horizontal-LOGO.png" alt="logo"></div>
+
+      <div class="grid">
+        <ul>
           <li><a href="#" >THE UNCONVENTIONAL</a></li>
           <li><a href="#" >WHO WE ARE</a></li>
           <li>
-            <img src="img/Box.png" alt="box-full" id="box-full">
-            <img src="img/Box_Hover.png" alt="box-empty" id="box-empty">
-            <a href="#" class="">(2)</a>
+            <img src="img/Box.png" alt="box-full" id="cart-full">
+            <img src="img/Box_Hover.png" alt="box-empty" id="cart-empty">
+            <h6>(2)</h6>
           </li>
         </ul>
-      </nav>
-    </div>
-
-    <!-- HERO -->
-    <div class="hero">
+      </div>
 
     </div>
+  </nav>
+ 
+<!-- HERO SECTION -->
 
-  </section>  
+<section id="hero">
+  <div class="wrapper">
+    <div class="heading">
+      <h1>
+        <span style="text-align: left;">WE SHIP OVERNIGHT<br>NATIONWIDE</span>
+      </h1>
+      <p>
+        <span style="text-align: left;">
+          We deliver Tuesday-Friday and offer the ability <br>
+          to schedule ahead
+        </span>
+      </p>
+      <a href="#" class="large-btn border solid btn-text" >View Menu</a>
+
+    </div>
+  </div>
+</section>
+ 
   
-  <!-- BUY THE BOX SECTION -->
+  <!-- BUY-THE-BOX SECTION -->
   <section id="buy-the-box">
-    <div class="container">
-      <h2>YOU BUY BY THE BOX</h2>
-      <p>Choose 7-8 products of your liking and have it delivered to your door as often as you want. Your pick, every time.</p>
+    <div class="wrapper">
 
-      <div class="numbers">
-        <div class="big-number">
-          <p>01</p>
-        </div>
-        <div class="line"></div>
-        <div class="number-text">Build Your Box</div>
+      <div class="heading">
+        <h3>YOU BUY IT BY THE BOX</h3>
+        <p>Choose 7-8 products of your liking and have it delivered to <br>
+          your door as often as you want. Your pick, every time.</p>
       </div>
 
-      <div class="numbers">
-        <div class="big-number">
-          <p>02</p>
-        </div>
-        <div class="line"></div>
-        <div class="number-text">Subscribe Or Don't</div>
-      </div>
+      <div class="numbers-row">
 
-      <div class="numbers">
-        <div class="big-number">
-          <p>03</p>
+        <div class="numbers">
+          <div class="number-box">
+            <span class="big-number">01</span>
+            <p>Build Your Box
+            <span class="black-line"></span>
+            </p>
+          </div>
         </div>
-        <div class="line"></div>
-        <div class="number-text">Pick a Delivery Day</div>
-        <p>We ship overnight</p>
-      </div>
-      <div class="large-btn">SHOP THE MENU</div>
+
+        <div class="numbers">
+          <div class="number-box">
+            <span class="big-number">02</span>
+            <p>Subscribe or Don't
+              <span class="black-line"></span>
+            </p>
+          </div>
+        </div>
+  
+        <div class="numbers">
+          <div class="number-box">
+            <span class="big-number">03</span>
+            <p>Pick a Delivery Day
+              <span class="black-line"></span>
+              <span>We ship <br>overnight</span>
+            </p>
+          </div>
+        </div>
+
+    </div>
+
+      <a href="#" class="large-btn border solid btn-text" >Shop the menu</a>
+
     </div>
   </section>
 
 <!-- CAROUSEL SECTION -->
 
   <section id="carousel">
-    <div class="">
-      <h3>DRINKS</h3>
-      <div class="sm-line"></div>
-      <h4>JUICES</h4>
-      <p>text text text</p>
-      <div class="large-btn">VIEW THE MENU</div>
+    <div class="container">
+
+      <div class="carousel-one">
+        <img src="img/Jeff_Mindell_for_JSH_3_b6fyuz.jpg" alt="" class="" style="width:100%;">
+        <div class="lite-blue-bg"></div>
+        <div class="grey-bg"></div>
+
+        <div class="centered">
+          <h2>DRINKS</h2>
+          <div class="sm-line"></div>
+          <h3>JUICES</h3>
+          <p>Our juices are indivudually crafted to flush, detoxify, hydrate abd strenghen the body </p>
+          <a href="#" class="large-btn border solid btn-text" >View the Menu</a>
+        </div>
+
+        <div class="circles">
+          <div class="circle-active"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+      
     </div>
   </section>
 
+  <!-- SECTION PICK -->
+<section id="pick">
+  <div class="wrapper">
 
+    <div class="heading">
+      <div class="sm-line"></div>
+      <h3>Pick Your Pleasure</h3>
+      <p> Our products are nourishing, satiating and never cut with cheap fillers.</p>
+    </div>
 
+    <div class="img-row">
+      <div class="img-link">
+        <a href="#" class="link">
+          <img src="img/Strawberry_Cold_Pressed_Lemonade_main.jpg" alt="">
+          <span class="img-selected-text">View Juices Menu</span>
+        </a>
+      </div>
+      <div class="img-link">
+        <a href="#" class="link">
+          <img src="img/Green_Milk_Cold_Pressed_Juice_main.jpg" alt="" class="img-selected">
+          <span class="img-selected-text">View Milks Menu</span>
+        </a>
+      </div>
+      <div class="img-link">
+        <a href="#" class="link">
+          <img src="img/Pure_Coco_Cold_Pressed_Juice_main.jpg" alt="">
+          <span class="img-selected-text">View Coconut Menu</span>
+        </a>
+      </div>
+      <div class="img-link">
+        <a href="#" class="link">
+          <img src="img/Super_Choc_Cold_Pressed_Juice_main.jpg" alt="">
+          <span class="img-selected-text">View Cholocate Menu</span>
+        </a>
+      </div>
+    </div>
 
+    <a href="#" class="large-btn border solid btn-text" >View Drinks Menu</a>
+
+  </div>
+  </div>
+</section>
+
+<!-- SECTION CLEANSE -->
+
+<section class="cleanse">
+  <img src="img/JuiceServedHere-TanaGandhi-003.JPG.jpeg" alt="" class="">
+  <div class="wrapper">
+
+    <div class="heading">
+      <h2>Cleanse</h2>
+      <div class="sm-line"></div>
+      <h3>Drinking Yourself Clean</h3>
+      <p>You like those cupcakes right? Sweet-spot for the whiskey neat? We get it. Time to cleanse.</p>
+    </div>
+    <a href="#" class="large-btn border solid btn-text" >Shop Cleanses</a>
+
+  </div>
+</section>
+
+<section id="locations">
+  <div class="wrapper">
+
+    <div class="heading">
+      <h2>Locations</h2>
+    </div>
+
+    <div class="location-row">
+      <div class="location">
+        <span class="location-img">
+          <img src="img/Platform_Culver_City_Juice_Bar_Coffee_4.jpg" alt="" class="">
+        </span>
+        <h5>Platform</h5>
+        <p>Monday-Sunday -7am - 8pm</p>
+        <p></p>
+      </div>
+      <div class="location img-selected">
+        <span class="location-img">
+          <img src="img/Downtown_Los_Angeles_Juice Bar_Coffee_3.jpg" alt="" class="">
+        </span>
+        <span class="img-selected-text">View Store Details</span>
+        <h5>DTLA</h5>
+        <p>Monday-Sunday -7am - 8pm</p>
+        <p></p>
+      </div>  
+      <div class="location">
+        <span class="location-img">
+          <img src="img/Pasadena_Juice Bar_Coffee_1.jpg" alt="" >
+        </span>
+        <h5>Pasadena</h5>
+        <p>Monday-Saturday -7:30am - 7pm</p>
+        <p>Sunday - 8am - 6pm</p>
+        <p></p>
+      </div>  
+      <div class="location">
+        <span class="location-img">
+          <img src="img/Venice_Juice_Bar_Coffee_4.jpg" alt="">
+        </span>
+        <h5>Venice</h5>
+        <p>Monday-Sunday -7am - 8pm</p>
+        <p></p>
+      </div>  
+    </div>
+
+    <a href="#" class="large-btn border solid btn-text" >View All Locations</a>
+
+  </div>  
+</section>
+
+<footer id="footer">
+  <div class="long-line"></div>
+  <hr>
+  <div class="wrapper">
+    <div class="footer-row">
+
+      <div class="form">
+        <form>
+          <div class="">
+            <h5>Let's be friends with benefits</h5>
+          </div>
+          <div class="form-row">
+            <input type="email" name="email" placeholder="Email Address">
+            <input type="submit" class="large-btn solid btn-text" value="OK!">
+          </div>
+        </form>
+      </div>
+
+      <div class="footer-links">
+        <ul>
+          <li><a href="#">COMPANY</a></li>
+          <li><a href="#">Find Stores</a></li>
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Our Juice</a></li>
+          <li><a href="#">Our Farmers</a></li>
+          <li><a href="#">Our Commitment</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <ul>
+          <li><a href="#">HELP</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Shpping</a></li>
+          <li><a href="#">Return Policy</a></li>
+          <li><a href="#">Gift Cards</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Legal</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <ul>
+          <li><a href="#">SOCIAL</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+
+<section id="legal">
+  <div class="wrapper">
+    <div class="legal-text">
+      <p>© 2016. Juice Served Here. NEVER CONVENTIONAL. All Rights Reserved</p>
+    </div>
+    <a class="legal-text" href="#">
+      Privacy Policy
+    </a>
+    <a class="legal-text"  href="#">
+      Terms &amp; Conditions
+    </a>
+
+  </div>
+</section>
 
 </body>
 </html>
